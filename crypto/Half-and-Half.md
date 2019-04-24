@@ -54,7 +54,7 @@ a   c   t   f   {   .   ..   . . .   _
 t   a   s   t   e   .   ..   . . .   }
 \x15\x02\x07\x12\x1e\x100\x01\t\n\x01"
 ```
-Now we're at a bit of a roadblock. How can we find the rest of the characters? We can start by making an assumption, that the flag is not obfuscated in any way. Given that, we can generate the possibilities for these characters with a quick python script.
+Now we're at a bit of a roadblock. How can we find the rest of the characters? We can start by making an assumption, that the flag is not obfuscated in any way. Given that, we can generate the possibilities for these characters with a quick [python script](code/Half_and_Half.py).
 ```python
 import string
 import sys
@@ -72,7 +72,7 @@ decrypt(sys.argv[1])
 ```
 Let's run this script on the first unknown character.
 ```
-slopey112:~/Documents/Code/payloads$ python3 decrypt.py $(python -c "print '\x10'")
+slopey112@slopey112:~/Documents/Code/payloads$ python3 decrypt.py $(python -c "print '\x10'")
 a q
 b r
 c s
