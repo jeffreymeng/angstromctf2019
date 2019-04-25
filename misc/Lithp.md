@@ -46,7 +46,7 @@ There's not much to say here if you don't know the language, but I'll first walk
 
 `enc` takes list and first calls `multh` on the input, and then calls `owo` on the input list. For each item in the newly defined list, it redefines it as the absolute value of itself.
 
-All there is to do is to compute these operations in reverse. I've simplified these functions significantly in my [solution](code/Lithp.py) (written in python), but I hope it can still be readable.
+All there is to do is to compute these operations in reverse. I've simplified these functions significantly in my [solution](/code/Lithp.py) (written in python), but I hope it can still be readable.
 ```python
 import math
 
