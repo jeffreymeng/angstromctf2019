@@ -54,7 +54,7 @@ a   c   t   f   {   .   ..   . . .   _
 t   a   s   t   e   .   ..   . . .   }
 \x15\x02\x07\x12\x1e\x100\x01\t\n\x01"
 ```
-Now we're at a bit of a roadblock. How can we find the rest of the characters? We can start by making an assumption, that the flag is not obfuscated in any way. Given that, we can generate the possibilities for these characters with a quick [python script](code/Half_and_Half.py).
+Now we're at a bit of a roadblock. How can we find the rest of the characters? We can start by making an assumption, that the flag is not obfuscated in any way. Given that, we can generate the possibilities for these characters with a quick [python script](/code/Half_and_Half.py).
 ```python
 import string
 import sys
